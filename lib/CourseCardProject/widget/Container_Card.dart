@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 import 'Chip_card.dart';
-class fullCard extends StatelessWidget {
+class ContCard extends StatelessWidget {
   final String img;
   final String text;
   final String txt;
-  const fullCard({
+  const ContCard({
     super.key, required this.img, required this.text, required this.txt,
   });
 
@@ -14,10 +14,10 @@ class fullCard extends StatelessWidget {
     return Row(
       children: [
         SizedBox(
-          height: 270,
+          height: 260,
           width: 180,
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(5.0),
             child: Container(
               decoration: BoxDecoration(
                 border: Border.all(
@@ -87,7 +87,7 @@ class fullCard extends StatelessWidget {
                         alignment: Alignment.center,
                         child: Text('ব্যাচ ১৪',style: TextStyle(fontSize: 8),),
                       ),
-                      chipCard(title: '৬ সিট বাকি', icon: Icons.chair_alt),
+                      chipCard(title: '৬ সিট বাকি', icon: Icons.groups_rounded),
                       chipCard(title: '৬ দিন বাকি', icon: Icons.access_time),
                     ],
                   ),
@@ -103,7 +103,7 @@ class fullCard extends StatelessWidget {
                   ),
 
                   Padding(
-                    padding: const EdgeInsets.only(left: 8, right: 8,top: 22),
+                    padding: const EdgeInsets.only(left: 8, right: 8,top: 15),
                     child: Container(
                         height: 30,
                         width: 150,
