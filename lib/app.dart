@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:professional_project/Live_Test/Live_test.dart';
 
 import 'CourseCardProject/Card_Design.dart';
 
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: CardDesign(),
+      home: Livetest(),
     );
   }
 }
