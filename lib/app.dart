@@ -1,6 +1,17 @@
 
 import 'package:flutter/material.dart';
+import 'package:professional_project/API_Live_Data/api_call.dart';
+import 'package:professional_project/ChatApp/page/home_page.dart';
+//import 'package:professional_project/ChatApp/login_page.dart';
+import 'package:professional_project/ChatApp/page/login_page.dart';
+import 'package:professional_project/ChatApp/page/register_page.dart';
+import 'package:professional_project/ChatApp/services/auth/auth_gate.dart';
+import 'package:professional_project/ChatApp/services/login_or_register.dart';
 import 'package:professional_project/Live_Test/Live_test.dart';
+import 'package:professional_project/Money_management/Home_Page.dart';
+import 'package:professional_project/NotesApp/Notes_Home.dart';
+import 'package:professional_project/Task_Node_App/ui/task_home_page.dart';
+
 
 import 'CourseCardProject/Card_Design.dart';
 
@@ -44,7 +55,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Livetest(),
+      home: ApiCall(),
     );
   }
 }

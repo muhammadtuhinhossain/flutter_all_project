@@ -39,7 +39,8 @@ class _TaskHomePageState extends State<TaskHomePage> {
     setState(() {
     });
   }
-  
+
+
   Future<void>deleteTask(int id) async {
    await TaskDatabase.deleteTask(id);
    refreshTask();
