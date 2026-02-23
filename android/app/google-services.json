@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28146829586",
+    "project_id": "chat-app-d2ed3",
+    "storage_bucket": "chat-app-d2ed3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28146829586:android:ee0871299ab02ade6e8bcb",
+        "android_client_info": {
+          "package_name": "com.tuhin.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ZH0COlAm8QC5KL82eCVHgHyKME5PdCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
